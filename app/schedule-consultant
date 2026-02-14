@@ -1,1 +1,33 @@
+export const metadata = {
+  title: "Schedule a Free Insurance Consultation | Schuylkill County",
+  description:
+    "Book a free life insurance or retirement consultation in Schuylkill County, PA.",
+};
 
+export default function ScheduleConsultationPage() {
+  return (
+    <main style={{ padding: "60px 20px", maxWidth: "900px", margin: "0 auto" }}>
+      <h1 style={{ fontSize: "32px", marginBottom: "20px" }}>
+        Schedule Your Free Insurance & Retirement Consultation in Schuylkill County
+      </h1>
+
+      <p style={{ marginBottom: "30px", lineHeight: 1.6 }}>
+        During this 30-minute consultation, we’ll review your coverage, discuss
+        your goals, and explore protection or retirement strategies — with no
+        pressure and no obligation.
+      </p>
+
+      <iframe
+        src="https://calendar.google.com/calendar/appointments/AcZssZ0pWKOYTgg4xc8vleuqTnfpTwqm8oYaG2B5TxA=?gv=true"
+        style={{ border: 0 }}
+        width="100%"
+        height="600"
+      ></iframe>
+
+      <p style={{ marginTop: "20px", fontSize: "14px", lineHeight: 1.6 }}>
+        Proudly serving Pottsville, Schuylkill Haven, Orwigsburg, Tamaqua,
+        Frackville, Shenandoah, and surrounding Schuylkill County communities.
+      </p>
+    </main>
+  );
+}
